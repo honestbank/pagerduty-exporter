@@ -24,10 +24,10 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Setup runner
-        uses: webdevops/setup-runner@main
+        uses: webdevops/setup-runner@f4eba686061111a15ec99436f2b94bccf3e6a45a # main
 
       - name: Setup go
-        uses: webdevops/setup-go@main
+        uses: webdevops/setup-go@7f772fd23d0887f433acac765f732b9c28c5a24c # main
 
       - name: Build
         run: |
