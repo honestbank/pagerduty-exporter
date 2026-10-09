@@ -21,7 +21,9 @@ jobs:
         include:
           - task: release-assets
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
 
       - name: Setup runner
         uses: webdevops/setup-runner@f4eba686061111a15ec99436f2b94bccf3e6a45a # main
